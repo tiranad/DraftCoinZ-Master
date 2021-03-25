@@ -137,7 +137,7 @@ public:
 };
 
 /**
- * Dash RPC command dispatcher.
+ * DFTz RPC command dispatcher.
  */
 class CRPCTable
 {

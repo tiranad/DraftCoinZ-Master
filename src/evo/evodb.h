@@ -1,9 +1,9 @@
-// Copyright (c) 2018-2020 The Dash Core developers
+// Copyright (c) 2018-2020 The DFTz Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DASH_EVODB_H
-#define DASH_EVODB_H
+#ifndef DFTZ_EVODB_H
+#define DFTZ_EVODB_H
 
 #include "dbwrapper.h"
 #include "sync.h"
@@ -108,4 +108,4 @@ private:
 
 extern CEvoDB* evoDb;
 
-#endif //DASH_EVODB_H
+#endif //DFTZ_EVODB_H

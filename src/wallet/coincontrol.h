@@ -91,7 +91,7 @@ public:
         vOutpoints.assign(setSelected.begin(), setSelected.end());
     }
 
-    // Dash-specific helpers
+    // DFTz-specific helpers
 
     void UsePrivateSend(bool fUsePrivateSend)
     {

@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2020 The Dash Core developers
+// Copyright (c) 2014-2020 The DFTz Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,7 +12,7 @@ static const int MODEL_UPDATE_DELAY = 250;
 /* AskPassphraseDialog -- Maximum passphrase length */
 static const int MAX_PASSPHRASE_SIZE = 1024;
 
-/* DashGUI -- Size of icons in status bar */
+/* DFTzGUI -- Size of icons in status bar */
 static const int STATUSBAR_ICONSIZE = 16;
 
 static const bool DEFAULT_SPLASHSCREEN = true;
@@ -31,11 +31,11 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "Dash"
-#define QAPP_ORG_DOMAIN "dash.org"
-#define QAPP_APP_NAME_DEFAULT "Dash-Qt"
-#define QAPP_APP_NAME_TESTNET "Dash-Qt-testnet"
-#define QAPP_APP_NAME_DEVNET "Dash-Qt-%s"
-#define QAPP_APP_NAME_REGTEST "Dash-Qt-regtest"
+#define QAPP_ORG_NAME "DFTz"
+#define QAPP_ORG_DOMAIN "dftz.org"
+#define QAPP_APP_NAME_DEFAULT "DFTz-Qt"
+#define QAPP_APP_NAME_TESTNET "DFTz-Qt-testnet"
+#define QAPP_APP_NAME_DEVNET "DFTz-Qt-%s"
+#define QAPP_APP_NAME_REGTEST "DFTz-Qt-regtest"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

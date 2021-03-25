@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-# Copyright (c) 2015-2020 The Dash Core developers
+# Copyright (c) 2015-2020 The DFTz Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-from test_framework.test_framework import DashTestFramework
+from test_framework.test_framework import DFTzTestFramework
 from test_framework.util import *
 
 '''
@@ -13,9 +13,9 @@ Simulate and check DKG errors
 
 '''
 
-class LLMQDKGErrors(DashTestFramework):
+class LLMQDKGErrors(DFTzTestFramework):
     def set_test_params(self):
-        self.set_dash_test_params(6, 5, [["-whitelist=127.0.0.1"]] * 6, fast_dip3_enforcement=True)
+        self.set_dftz_test_params(6, 5, [["-whitelist=127.0.0.1"]] * 6, fast_dip3_enforcement=True)
 
     def run_test(self):
 

@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2020 The Dash Core developers
+// Copyright (c) 2019-2020 The DFTz Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -151,10 +151,10 @@ UniValue getprivatesendinfo(const JSONRPCRequest& request)
 static const CRPCCommand commands[] =
     { //  category              name                      actor (function)         okSafe argNames
         //  --------------------- ------------------------  -----------------------  ------ ----------
-        { "dash",               "getpoolinfo",            &getpoolinfo,            true,  {} },
-        { "dash",               "getprivatesendinfo",     &getprivatesendinfo,     true,  {} },
+        { "dftz",               "getpoolinfo",            &getpoolinfo,            true,  {} },
+        { "dftz",               "getprivatesendinfo",     &getprivatesendinfo,     true,  {} },
 #ifdef ENABLE_WALLET
-        { "dash",               "privatesend",            &privatesend,            false, {} },
+        { "dftz",               "privatesend",            &privatesend,            false, {} },
 #endif // ENABLE_WALLET
 };
 
